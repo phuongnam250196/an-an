@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/an-an/static/css/main.6a5e41cb.chunk.css",
+    "main.js": "/an-an/static/js/main.f57a94b0.chunk.js",
+    "main.js.map": "/an-an/static/js/main.f57a94b0.chunk.js.map",
+    "runtime-main.js": "/an-an/static/js/runtime-main.414fcea8.js",
+    "runtime-main.js.map": "/an-an/static/js/runtime-main.414fcea8.js.map",
+    "static/js/2.c310f509.chunk.js": "/an-an/static/js/2.c310f509.chunk.js",
+    "static/js/2.c310f509.chunk.js.map": "/an-an/static/js/2.c310f509.chunk.js.map",
+    "static/js/3.5c25aa63.chunk.js": "/an-an/static/js/3.5c25aa63.chunk.js",
+    "static/js/3.5c25aa63.chunk.js.map": "/an-an/static/js/3.5c25aa63.chunk.js.map",
+    "index.html": "/an-an/index.html",
+    "static/css/main.6a5e41cb.chunk.css.map": "/an-an/static/css/main.6a5e41cb.chunk.css.map",
+    "static/js/2.c310f509.chunk.js.LICENSE.txt": "/an-an/static/js/2.c310f509.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/an-an/static/media/backgroundlow.480319b9.jpg",
+    "static/media/service.css": "/an-an/static/media/image-8.1bea4743.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.414fcea8.js",
+    "static/js/2.c310f509.chunk.js",
+    "static/css/main.6a5e41cb.chunk.css",
+    "static/js/main.f57a94b0.chunk.js"
+  ]
+}
