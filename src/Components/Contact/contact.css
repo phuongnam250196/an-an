@@ -1,0 +1,109 @@
+
+.contactTitle {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px 10px 0px;
+    font-size: 20px;
+    color: #f0ff15;
+    text-shadow: 2px 2px 4px #f5deb38f;
+    border-bottom: solid 2px #d4e71a;
+}
+
+.form-group textarea {
+    margin: 10px 0px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.form-group button {
+    padding: 8px 10px;
+    color: #dbdbdb;
+    background: #9f1515ad;
+    border-radius: 5px;
+    /* border: groove; */
+    border: none;
+    font-size: 18px;
+}
+
+.form-group button:hover {
+    background: #c00303;
+    border: groove;
+    padding: 6px 7px 6px 7px;
+    color: #a6dd00;
+}
+
+.form-group input {
+    margin: 10px 0px;
+    padding: 8px 8px;
+    font-size: 16px;
+    /* color: wheat !important; */
+    /* margin: 10px 0px; */
+    /* padding: 8px 10px; */
+    border-radius: 5px;
+    border: none;
+    background: #ffffff !important;
+    /* color: #7e3838 !important; */
+}
+
+.contactItemCard form {
+    width: 100%;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.pb-2 {
+    padding-bottom: 15px;
+}
+
+.contactItemCardWrap {
+    width: 100%;
+    margin: auto;
+}
+
+.contactItemCard {
+    /* width: 100%; */
+    margin: 15px;
+    /* min-width: 379px; */
+    /* text-align: center; */
+    min-height: 230px;
+    border-radius: 5px;
+    background: #6633999e;
+    /* display: flex; */
+    padding: 15px;
+}
+
+
+.contactItem {
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+    font-size: 18px;
+    /* display: flex; */
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.contactContent {
+    margin: auto;
+    max-width: 1140px;
+    min-width: 480px;
+    width: 50%;
+    height: 100% !important;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contactFrameWrap {
+    /* background: blue; */
+    background-image: url('images/image-8.jpg');
+}
+
+.contactFrame {
+    /* height: 78vh; */
+    background: linear-gradient(to left, #73269a7d, #dc2430c9);
+    min-height: 620px;
+}

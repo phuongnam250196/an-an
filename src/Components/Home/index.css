@@ -1,0 +1,335 @@
+*{margin: 0;padding: 0;}
+
+
+
+.element-icon:hover a i {
+    color: #15ff92;
+}
+
+.button-col-wrap a:hover {
+    /* color: red; */
+    color: #15ff92;
+}
+
+.button-col-wrap a {
+    color: white;
+    text-decoration: none;
+}
+
+.button-content span a {
+    text-decoration: none;
+    color: white;
+}
+.button-content:hover span a {
+    background: #b00851;
+    cursor: pointer;
+    color: #15ff92;
+}
+
+.btnHeaderItem:hover a {
+    background: #52043d;
+    cursor: pointer;
+    color: #15ff92;
+}
+
+.btnHeaderItem a {
+    text-decoration: none;
+    color: white;
+}
+
+.element-col-wrap a {
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+}
+
+.element-icon:hover {
+    background-color: #b00851;
+    color: #15ff92;
+    cursor: pointer;
+}
+
+.button-col-wrap:hover {
+    background-color: #b00851;
+    color: #15ff92;
+    cursor: pointer;
+}
+
+.button-content i {
+    margin-right: 5px;
+}
+
+.logoLeft a {
+    text-decoration: none;
+}
+
+.btnHeader {
+    margin-bottom: 30px;
+}
+
+a.active {
+    color: #edaa2c !important;
+}
+
+.menuHeaderItem a {
+    color: white;
+    text-decoration: none;
+}
+
+.alpha-footer-content p {
+    margin: 15px 0px;
+}
+
+.alpha-footer-content {
+    text-align: center;
+    padding: 20px 10px;
+    color: white;
+}
+
+footer.alpha-footer {
+    background: #2d1f1f;
+}
+
+.about-us-container h3 {margin: 10px;}
+
+.about-us-container {
+    max-width: 1140px;
+    margin: auto;
+    text-align: left;
+    width: 100%;
+    font-size: 18px;
+    color: #7d1084;
+}
+
+.about-us-header {
+    height: 50px;
+    display: flex;
+}
+
+.about-us-wrap {
+    padding: 40px 10px;
+    width: 100%;
+    /* height: 100%; */
+    background: #2d1449a6;
+}
+
+.about-us-content {
+    /* width: 45%; */
+    color: white;
+    margin-left: 100px;
+    max-width: 470px;
+    text-align: justify;
+}
+
+.about-us {
+    min-height: 800px;
+    display: flex;
+    /* background: blue; */
+    background-image: url("http://saokhuetv.com/wp-content/uploads/2020/01/Kiem-soat-noi-bo1.jpg");
+    background-size: cover;
+}
+
+.about-us p {
+    margin-bottom: 20px;
+}
+
+.bar-item {
+    margin: auto;
+    height: 50%;
+    /* background: gray; */
+    opacity: 10%;
+    width: 100%;
+    background-image: url('images/DivideImage.png');
+    background-size: 580px;
+}
+
+.bar-image {
+    height: 50px;
+    display: flex;
+    /* background: #0000ff87; */
+    background-image: url('images/DivideBackground.jpg');
+    background-size: cover;
+    background-position-y: center;
+}
+
+.elementor-container2 {
+    margin: 15px 0px;
+}
+
+.divide-bar {
+        /* margin: 0px 0px; */
+        padding: 1px 0px;
+        /* height: 60px; */
+        /* background: blue; */
+        box-shadow: 0px 0px 7px 1px #46024dcc;
+}
+
+.button-col-wrap {
+    background: #7d1084;
+    font-size: 15px;
+    border-radius: 3px;
+    text-align: center;
+    width: 25%;
+    min-width: 85px;
+    color: white;
+    margin: auto;
+    padding: 7px;
+}
+
+.element-content p {
+    text-align: initial;
+}
+
+.element-content h3 {
+    margin: 10px;
+    color: #7d1084;
+    font-size: 26px;
+}
+
+.element-col-wrap i {
+    font-size: 45px;
+    margin: auto;
+    color: white;
+}
+
+.element-icon {
+    /* font-size: 50px; */
+    display: flex;
+    background: #7d1084;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    margin: 0px auto 0px auto;
+}
+
+.element-col-wrap {
+    background: white;
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+    min-height: 300px;
+}
+
+.element-col-4 {
+    width: 33.333%;
+    /* width: 200px !important; */
+    /* min-height: 350px; */
+}
+
+.elementor-row {
+    display: flex;
+    max-width: 1040px;
+    margin: auto;
+    /* min-height: 350px; */
+    /* width: 300px; */
+    /* flex-wrap: wrap; */
+}
+
+.elementor-container {
+    margin-top: -128px;
+}
+
+
+.btnHeaderItem {
+    /* height: 40px; */
+    font-size: 18px;
+    background-color: #b00851;
+    border-radius: 3px;
+    padding: 10px 0px;
+    width: 46%;
+    margin: 0% 2%;
+    /* padding: 1px 0px; */
+}
+
+.btnHeaderItem:hover {
+    background: #52043d;
+    cursor: pointer;
+    color: #15ff92;
+}
+
+.btnGroup {
+    display: flex;
+    /* text-align: center; */
+    margin: auto;
+    width: 70%;
+}
+
+.headerItem h3 {
+    font-size: 28px;
+    margin: 15px 0px;
+}
+
+.headerItem h1 {
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+.headerFrameWrap {
+    background-image: url('images/backgroundlow.jpg');
+    background-size: cover;
+}
+
+.headerItem {
+    text-align: center;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+    width: 100%;
+    color: white;
+}
+
+.headerContent {
+    width: 35%;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    display: flex;
+}
+
+.headerFrame {
+    height: 60vh;
+    min-height: 460px;
+    background-color: #6b047e7a;
+    background: linear-gradient(to left, #73269a7d, #dc2430c9);
+    /* opacity: 56%; */
+    /* background: #e5caff; */
+}
+
+.headerList {
+    position: absolute;
+    right: 0px;
+}
+
+ul.menuHeaderList {
+    list-style-type: none;
+}
+
+.logoLeft {
+    font-size: 24px;
+    padding-left: 15px;
+    margin: 15px 0px;
+    font-family: cursive;
+    color: #e4a92e;
+    text-shadow: 2px 0px 1px;
+}
+
+li.menuHeaderItem {
+    margin: 20px 15px;
+    font-size: 20px;
+}
+
+.headerContainer {
+    margin: auto;
+    display: flex;
+    max-width: 1040px;
+    color: white;
+    position: relative;
+}
+
+ul.menuHeaderList {
+    display: flex;
+}
+
+.header {
+    background: #504242;
+}

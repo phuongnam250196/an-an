@@ -1,0 +1,168 @@
+/* Navbar container */
+/* .show {
+  display: block !important;
+} */
+
+ul.menuHeaderList.checked {
+  right: 0;
+}
+
+@media (max-width: 858px){
+  .header {
+    /* position: fixed; */
+    width: 100%;
+  }
+  .show {
+      display: block !important;
+  }
+
+  ul.menuHeaderList.back {
+    right: 100%;
+  }
+}
+
+@media (max-width: 858px){
+  label.checkbtn{
+      display: block !important;
+      
+      margin-left: 15px;
+  }
+  ul {
+      position: fixed;
+      width: 100%;
+      min-height: 100vh;
+      background: linear-gradient(to left, #412250, #520c11);
+      top: 60px;
+      right: 100%;
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+      transition: 1s;
+  }
+
+  input#check:checked ~ ul {
+      left: 0 !important;
+  }
+
+  label.checkbtn:checked, label.checkbtn:hover{
+      color: tomato;
+  }
+
+  .logoLeft {
+      width: 70%;
+      text-align: center;
+  }
+
+  .element-col-4 {
+      width: 100% !important;
+      font-size: 19px;
+      /* text-align: left; */
+      /* width: 200px !important; */
+      /* min-height: 350px; */
+  }
+
+  .elementor-row {
+      display: block !important;
+  }
+  
+  .element-content p {
+      padding-top: 20px;
+      text-align: justify;
+  }
+
+  .button-col-wrap {
+      display: none;        
+  }
+
+  .about-us-content {
+      margin-left: 0 !important;
+      max-width: 900px !important;
+      font-size: 18px;
+  }
+
+  .dropdown-content {
+    background: #66339969 !important;
+    /* position: absolute; */
+    position: inherit !important;
+    /* display: flex !important; */
+    display: none;
+    margin: 0 !important;
+    padding: 0 !important;
+    margin-top: 15px !important;
+    border: none !important;
+  }
+
+  .dropdown-content a{
+    text-align: center !important;
+  }
+
+  
+
+}
+
+label.checkbtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 60px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+input#check {
+  display: none;
+}
+
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+
+  
+  /* Add a red background color to navbar links on hover */
+  .dropdown-content a:hover {
+    background-color: #d5a22d;
+}
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+      padding: 17px 0px 0px 0px ;
+    margin: 0px 0px 0px -15px;
+    border-bottom: solid 2px #edaa2c;
+    font-size: 19px;
+    display: none;
+    position: absolute;
+    background-color: #504242;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    transition: 5s;
+    
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #edaa2c;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  

@@ -1,0 +1,42 @@
+
+
+hr.hr-about.mb-2 {
+    height: 2px;
+    background: white;
+    border: none;
+    margin-bottom: 15px;
+}
+
+.aboutIcon {
+    text-align: center;
+    font-size: 40px;
+}
+
+.aboutItemCard p {
+    margin: 20px;
+    text-align: justify;
+}
+
+.aboutItem {
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+    font-size: 21px;
+}
+
+.aboutContent {
+    margin: auto;
+    max-width: 1040px;
+    height: 100% !important;
+    display: flex;
+}
+
+.aboutFrameWrap {
+    /* background: blue; */
+    background-image: url('images/image-8.jpg');
+}
+
+.aboutFrame {
+    height: 78vh;
+    background: linear-gradient(to left, #73269a7d, #dc2430c9);
+}
